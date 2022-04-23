@@ -1,0 +1,30 @@
+#submitBtn {
+    width: 100%;
+    font-weight: bold;
+}
+
+#stats {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+#downloadClick {
+    cursor: pointer;
+}
+
+#downloadClick:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #submitBtn {
+        position: relative;
+        top: 20%;
+    }
+    
+    #stats {
+        text-align: left;
+    }
+}
